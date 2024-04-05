@@ -14,8 +14,8 @@ const latestBlog = blogs.splice(0, 1)[0]; // modifies the collection
     <title>Astro</title>
   </head>
   <body>
-    <a href="/another_page">other page</a>
-    <pre>The following should look identical to the other page after productionbuilding. Works fine with dev and dev build</pre>
+    <a href="/">home</a>
+    <pre>The following should look identical to the home page after productionbuilding. Works fine with dev and dev build</pre>
     <h1>Latest Blog</h1>
     <h2>{latestBlog.data.title}</h2>
     <p>posted: {latestBlog.data.date.toLocaleString()}</p>
