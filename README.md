@@ -8,4 +8,4 @@ For this issue: https://github.com/withastro/astro/issues/10700
 
 The list of blogs on both pages should look the same.
 
-Compare to the behavior when running `npm run dev` or `npm run build:dev` and `npm run preview`
+Compare to the behavior when running `npm run dev`
